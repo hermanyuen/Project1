@@ -199,7 +199,11 @@ double WidgetCalculations::getCp(int selectIndex) {
     }
     return (usl-lsl)/(6*std);
 }
-
+double WidgetCalculations::getDefectPercent(int selectIndex) {
+    auto arr = getDefectCount();
+    double percent = (arr[selectIndex] / static_cast<double>(getSize()))*100;
+    return percent;
+}
 std::array<int,13> WidgetCalculations::getDefectCount() {
     std::array<int, 13> arr = {};
     for (auto& widgets : widgetList) {
@@ -285,6 +289,7 @@ void WidgetCalculations::streamReport(std::ostream& os) {
     os << "Average Value: " << getAverage(paretoList()[0]) << "\n";
     os << "Standard Deviation: " << getSTD(paretoList()[0]) << "\n";
     os << "Cp (Capability Index): " << getCp(paretoList()[0]) << "\n";
+    os << "Defect Percentage: " << getDefectPercent(paretoList()[0]) << "%\n";
     os << "\n\n";
 }
 

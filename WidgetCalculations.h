@@ -17,6 +17,9 @@ public:
     // get capability index Cp = (USL-LSL) / (6*STD)
     double getCp(int selectIndex);
 
+    //Defect Percentage
+    double getDefectPercent(int selectIndex);
+
     //Get Defectcount in list form
     std::array<int, 13> getDefectCount();
 
