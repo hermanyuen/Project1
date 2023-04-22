@@ -1,0 +1,5 @@
+﻿  Main.cpp
+C:\Users\Zoyk\VisualStudio2022\course-project-implementation-hermanyuen\Main.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Widget2Test.cpp
+  Generating Code...
+  Example.vcxproj -> C:\Users\Zoyk\VisualStudio2022\course-project-implementation-hermanyuen\x64\Debug\Example.exe
