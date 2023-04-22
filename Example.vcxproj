@@ -147,6 +147,10 @@
     <ClInclude Include="include\CppUnitLite\TestRegistry.h" />
     <ClInclude Include="include\CppUnitLite\TestResult.h" />
     <ClInclude Include="include\CppUnitLite\WFailure.h" />
+    <ClInclude Include="Widget1.h" />
+    <ClInclude Include="Widget2.h" />
+    <ClInclude Include="WidgetCalculations.h" />
+    <ClInclude Include="WidgetFamily.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppUnitLite\Failure.cpp" />
@@ -155,7 +159,13 @@
     <ClCompile Include="CppUnitLite\TestResult.cpp" />
     <ClCompile Include="CppUnitLite\WFailure.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="XxxTest.cpp" />
+    <ClCompile Include="Widget1.cpp" />
+    <ClCompile Include="Widget1Test.cpp" />
+    <ClCompile Include="Widget2.cpp" />
+    <ClCompile Include="Widget2Test.cpp" />
+    <ClCompile Include="WidgetCalculations.cpp" />
+    <ClCompile Include="WidgetFamily.cpp" />
+    <ClCompile Include="WidgetCalculationTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,3 @@
+﻿  WidgetCalculations.cpp
+C:\Users\Zoyk\VisualStudio2022\course-project-implementation-hermanyuen\WidgetCalculations.cpp(264,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Example.vcxproj -> C:\Users\Zoyk\VisualStudio2022\course-project-implementation-hermanyuen\x64\Debug\Example.exe
